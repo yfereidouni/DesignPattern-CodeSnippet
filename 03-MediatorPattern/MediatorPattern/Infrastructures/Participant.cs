@@ -7,23 +7,23 @@ using System.Threading.Tasks;
 
 namespace MediatorPattern.Infrastructures;
 
-public abstract class Mediator : IParticipant
+public abstract class Participant : IParticipant
 {
-    private readonly string _key;
-    private readonly IMediator _mediator;
+    private IMediator _mediator;
+    protected string _key;
 
-    public Mediator(string key, IMediator mediator)
+    public Participant(string key, IMediator mediator)
     {
         _key = key;
         _mediator = mediator;
     }
 
-    public void ReceiveCommand(string sender, string command)
+    public virtual void ReceiveCommand(string sender, string command)
     {
         Console.WriteLine($"Executing command {command} issued by {sender}.");
     }
 
-    public void SendCommand(string receiver, string command)
+    public virtual void SendCommand(string receiver, string command)
     {
         _mediator.SendCommand(receiver, _key, command);
 
