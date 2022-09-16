@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop_DataAccess", "02-Comm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop_DataAccess.Client", "02-CommandPattern\eShop_DataAccess.Client\eShop_DataAccess.Client.csproj", "{205F50D2-5B40-4F1E-9241-A05803E2DB6E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Mediator", "03-Mediator", "{C0CC7447-5391-44D6-A466-B3CA7765984F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
