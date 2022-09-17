@@ -3,7 +3,7 @@
 using SingletonPattern;
 
 Console.WriteLine("┌-------------------------------------------------┐");
-Console.WriteLine("|                      Singleton                  |");
+Console.WriteLine("|            Singleton Design Pattern             |");
 Console.WriteLine("└-------------------------------------------------┘");
 
 

@@ -4,7 +4,7 @@ using MediatorPattern.Infrastructures.Concretes;
 using MediatorPattern.Infrastructures.Concretes.Mediator;
 
 Console.WriteLine("┌-------------------------------------------------┐");
-Console.WriteLine("|                      Mediator                   |");
+Console.WriteLine("|              Mediator Design Patte              |");
 Console.WriteLine("└-------------------------------------------------┘");
 
 

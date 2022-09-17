@@ -3,7 +3,11 @@
 using CompositionDesignPattern.Infrastructures;
 using CompositionDesignPattern.Interfaces;
 
-Console.WriteLine("*********** Asset Price *************");
+Console.WriteLine("┌-------------------------------------------------┐");
+Console.WriteLine("|           Composition Design Pattern            |");
+Console.WriteLine("└-------------------------------------------------┘");
+
+Console.WriteLine("***************** Asset Price ********************");
 
 //Create Leaf Objects
 ICustomComponent cpu = new Leaf("CPU", 10);

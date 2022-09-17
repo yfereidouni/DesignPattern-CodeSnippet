@@ -6,7 +6,7 @@ using eShop_DataAccess.Infrastructures.Enums;
 using eShop_DataAccess.Repositories;
 
 Console.WriteLine("┌-------------------------------------------------┐");
-Console.WriteLine("|                 Command Pattern V2              |");
+Console.WriteLine("|            Command Design Pattern V2            |");
 Console.WriteLine("└-------------------------------------------------┘");
 
 static void PrintCart(ShoppingCartRepositoty shoppingCartRepositoty)

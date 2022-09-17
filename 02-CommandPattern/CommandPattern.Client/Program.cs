@@ -4,7 +4,7 @@ using CommandPattern.Infrastructures.Commands;
 using CommandPattern.Infrastructures.Invoker;
 
 Console.WriteLine("┌-------------------------------------------------┐");
-Console.WriteLine("|                  Command Pattern                |");
+Console.WriteLine("|               Command Design Pattern            |");
 Console.WriteLine("└-------------------------------------------------┘");
 
 var dataReceiver = new DataReceiver();
